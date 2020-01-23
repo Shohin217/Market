@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear:both;
+}
+.root__offer{
+  content: '';
+	display: table;
+  clear:both;
+  margin: 10px auto 0 auto;
+  width: auto;
+}
+.root__offer_block{
+  width: 240px;
+  float: left;
+  margin-left: 42px;
+}
+.offer__img{
+  width: 190px;
+}
+.root__offer_block a {
+  text-decoration: none;
+  color: #0000cc
+}
+
+.root__offer_block span {
+  font-size: 26px;
+}
+
+
