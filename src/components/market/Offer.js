@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Market(props) {
+export default function Offer(props) {
     return (
         <div className='root__offer_block'>
             <img className='offer__img' src={props.imgUrl} alt="" />

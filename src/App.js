@@ -1,5 +1,5 @@
 import React from 'react'
-import Market from './components/market/Market'
+import Offer from './components/market/Offer'
 
 export default function App() {
     const offers= [
@@ -11,10 +11,10 @@ export default function App() {
     ]
     return (
         <div className="root__offer">
-            <Market id={offers[0].id} imgUrl={offers[0].imgUrl} price={offers[0].price} title={offers[0].title}  link={offers[0].link}/>
-            <Market id={offers[1].id} imgUrl={offers[1].imgUrl} price={offers[1].price} title={offers[1].title}  link={offers[1].link}/>
-            <Market id={offers[2].id} imgUrl={offers[2].imgUrl} price={offers[2].price} title={offers[2].title}  link={offers[2].link}/>
-            <Market id={offers[3].id} imgUrl={offers[3].imgUrl} price={offers[3].price} title={offers[3].title}  link={offers[3].link}/>
+            <Offer id={offers[0].id} imgUrl={offers[0].imgUrl} price={offers[0].price} title={offers[0].title}  link={offers[0].link}/>
+            <Offer id={offers[1].id} imgUrl={offers[1].imgUrl} price={offers[1].price} title={offers[1].title}  link={offers[1].link}/>
+            <Offer id={offers[2].id} imgUrl={offers[2].imgUrl} price={offers[2].price} title={offers[2].title}  link={offers[2].link}/>
+            <Offer id={offers[3].id} imgUrl={offers[3].imgUrl} price={offers[3].price} title={offers[3].title}  link={offers[3].link}/>
         </div>
     )
 }
